@@ -7,6 +7,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 public class Member { // DB의 레코드와 매핑되는 객체
+	int fieldCount= 4; 
 	private StringProperty uid; // DB의 필드와 매핑
 	private StringProperty upw;
 	private StringProperty uname;
